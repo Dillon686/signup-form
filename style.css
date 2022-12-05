@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Norse-Bold;
+  src: url("Norse-Bold.otf") format("opentype");
+}
+
+body {
+  overflow: hidden;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: row;
+}
+
+#img-logo-container {
+  flex: 1;
+}
+
+#img-logo-container label {
+  color: white;
+  font-size: 26vh;
+  font-family: Norse-Bold;
+}
+
+#winter-img {
+  height: 100vh;
+  position: relative;
+}
+
+#logo-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 30vh;
+  justify-content:center;
+  width: 533px;
+  background-color: black;
+  opacity: 50%;
+}
+
+#odin-logo-image {
+  height: 26vh;
+  position: relative;
+  top: 18px;
+}
+
+#image-credit {
+  position: absolute;
+  top: 94vh;
+  left: 11%;
+  color: white;
+  font-weight: bold;
+}
+
+#image-credit a {
+  color: #a12d20fd;
+  text-decoration: none;
+}
+
+#right-container {
+  display:flex;
+  flex-direction: column;
+  flex: 2;
+  height: 99.6vh;
+}
+
+#top-div, #bottom-div {
+  background-color: #f9fafb;
+  flex: 1;
+  padding-left: 3vw;
+}
+
+#top-div p{
+  width: 75%;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin-top: 5vh;
+}
+
+#middle-div {
+  background-color: white;
+  flex: 1;
+  padding-left: 3vw;
+}
+
+#bottom-div {
+  padding-left: 3vw;
+}
+
+#middle-div h1 {
+  font-size: 1.5em;
+}
+
+#bottom-div button {
+  background-color: #596D48;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 15px;
+  margin: 20px 0px;
+}
+
+strong{
+  color: #596D48;
+}
+
