@@ -106,3 +106,13 @@ strong{
   color: #596D48;
 }
 
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+input {
+  width: 13vw;
+}
