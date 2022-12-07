@@ -26,13 +26,17 @@
     <div id="middle-div">
       <h1>Let's do this!</h1>
       <form action="" method="get" id="signup-form">
-        <label>First Name<br><input type="text" id="firstname" name="firstname"></label>
-        <label>Last Name<br><input type="text" id="lastname" name="lastname"></label>
-        <label>Email<br><input type="email" id="email" name="email"></label>
-      </form>
+        <label>First Name<span>*</span><br><input type="text" id="first-name" name="first-name" required></label>
+        <label>Last Name<span>*</span><br><input type="text" id="last-name" name="last-name" required></label>
+        <label>Email<span>*</span><br><input type="email" id="email" name="email" required></label>
+        <label>Phone Number<span>*</span><br><input type="tel" id="phone-number" name="phone-number" maxlength="12" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
+        <label>Password<span>*</span><br><input type="password" id="password" name="password" class="error"></label>
+        <label>Confirm Password<span>*</span><br><input type="password" id="confirm-password" name="confirm-password" class="error"></label>
+        <span style="font-size: 13px"><br>Required fields are marked with a red asterisk (*)</span>
     </div>
     <div id="bottom-div">
       <button type="submit">Create Account</button>
+    </form>
       <p>Already have an account? <strong>Log in</strong></p>
     </div>
   </div>

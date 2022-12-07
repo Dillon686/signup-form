@@ -28,6 +28,7 @@ body {
 #winter-img {
   height: 100vh;
   position: relative;
+  width: 37.5vw;
 }
 
 #logo-container {
@@ -36,7 +37,7 @@ body {
   position: absolute;
   top: 30vh;
   justify-content:center;
-  width: 533px;
+  width: 37.5vw;
   background-color: black;
   opacity: 50%;
 }
@@ -115,4 +116,24 @@ form{
 
 input {
   width: 13vw;
+  border: #E5E7EB solid thin;
+  border-radius: 4px;
+}
+
+input:focus {
+  border: #0000ff thin solid;
+  box-shadow: 2px 2px lightgray;
+  outline: none;
+}
+
+form label {
+  margin-top: 1vw;
+}
+
+span{
+  color: red;
+}
+
+.error:invalid {
+  border: red thin solid;
 }
